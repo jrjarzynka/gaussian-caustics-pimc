@@ -1,0 +1,25 @@
+============================================================================
+STEP 7'' analytic re-derivation of Eq. (101)
+============================================================================
+  V_BLK(0)   = -252.6248 meV
+  V''_BLK(0) = 0.3778422 eV nm^-2   (manuscript: +0.3778422)
+  rho_0      = 0.5280867 nm              (manuscript: 0.5280867)
+
+  threshold |V''| = 8.5459392e-05 eV nm^-2
+                           analytic       manuscript    rel. diff
+  rho_in  (nm)            0.5282829        0.5282829     3.89e-08
+  rho_out (nm)           18.6909202       18.6909873     3.59e-06
+
+  most negative V''_BLK = -0.0618475 eV nm^-2 at rho = 0.92496 nm
+  -> BLK radial annulus closes entirely above T = 538 K
+
+  Temperature dependence of the BLK-only radial invalid annulus:
+    T (K)   rho_in (nm)  rho_out (nm)   width (nm)
+       10      0.528136       29.9182      29.3900
+       20      0.528283       18.6909      18.1626
+       50      0.529316        9.8631       9.3338
+      100      0.533051        5.9167       5.3837
+      200      0.548744        3.3831       2.8343
+      300      0.578190        2.3320       1.7538
+      500      0.741449        1.2196       0.4782
+     1000            --            --   no annulus

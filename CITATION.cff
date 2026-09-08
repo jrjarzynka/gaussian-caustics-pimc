@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the associated article and this repository release."
+title: "Gaussian Caustics in Multidimensional and Interacting Systems: Reproducibility Package"
+type: software
+authors:
+  - family-names: Jarzynka
+    given-names: Jaroslaw R.
+    orcid: "https://orcid.org/0009-0005-9444-3973"
+version: 1.0.0-rc1
+date-released: 2026-09-08
+license: MIT
+keywords:
+  - quantum statistical mechanics
+  - path-integral Monte Carlo
+  - local harmonic approximation
+  - Gaussian caustics
+  - reproducibility

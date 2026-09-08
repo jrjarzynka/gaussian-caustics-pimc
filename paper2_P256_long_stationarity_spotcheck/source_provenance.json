@@ -1,0 +1,177 @@
+{
+  "audit_runner": "paper2_P256_long_stationarity_spotcheck/run_P256_long_stationarity.py",
+  "audit_runner_sha256": "d52377e1db2cb72871781cb8666fc57af3515e043eca43d4b9b52a42ab0a7ff4",
+  "command": "python paper2_P256_long_stationarity_spotcheck/run_P256_long_stationarity.py --stage all",
+  "comparisons": {
+    "p_inv": {
+      "combined_sem": 0.0005598228767724849,
+      "difference_new_minus_old": 0.00036918402777774695,
+      "difference_z_combined": 0.659465775865007,
+      "new": 0.9252216145833333,
+      "new_sem": 0.00039759004917392754,
+      "old": 0.9248524305555555,
+      "old_sem": 0.00039411141337912894
+    },
+    "rho_mean": {
+      "combined_sem": 0.004981012391872653,
+      "difference_new_minus_old": 0.0021178722381591797,
+      "difference_z_combined": 0.4251891124813982,
+      "new": 1.829172670841217,
+      "new_sem": 0.003823864496795801,
+      "old": 1.8270547986030579,
+      "old_sem": 0.0031919499930502552
+    },
+    "rho_median": {
+      "combined_sem": 0.0038522764249486474,
+      "difference_new_minus_old": 0.0003857910633087158,
+      "difference_z_combined": 0.1001462565900521,
+      "new": 1.6378802955150604,
+      "new_sem": 0.0030203495910990476,
+      "old": 1.6374945044517517,
+      "old_sem": 0.002391134040944369
+    },
+    "w5": {
+      "combined_sem": 0.0003322095134913881,
+      "difference_new_minus_old": -0.00012890624999983835,
+      "difference_z_combined": -0.3880269672144112,
+      "new": 0.9086417534722222,
+      "new_sem": 0.0002480409018249064,
+      "old": 0.908770659722222,
+      "old_sem": 0.0002209951851875328
+    },
+    "zeta50": {
+      "combined_sem": 0.026293691365078916,
+      "difference_new_minus_old": -0.000899124145508523,
+      "difference_z_combined": -0.03419543239572153,
+      "new": 17.31728744506836,
+      "new_sem": 0.020037694022926135,
+      "old": 17.318186569213868,
+      "old_sem": 0.017024952976311444
+    }
+  },
+  "config": "secVIII/configs/two_body/landscape_scan_config_v2_P256_matched.json",
+  "config_sha256": "9d7779ad7da3554fda7118b645547d7b251141286e738afc5f5254cfc2163719",
+  "configuration": {
+    "P": 256,
+    "burn_in_variants": [
+      15000,
+      30000,
+      60000
+    ],
+    "center_e_nm": [
+      10.0,
+      0.0
+    ],
+    "center_h_nm": [
+      10.0,
+      0.0
+    ],
+    "global_move_probability": 0.2,
+    "global_step_nm": 12.0,
+    "local_step_nm": 0.15,
+    "minimum_burn_in": 15000,
+    "n_steps": 240000,
+    "physical_config": {
+      "burn_in": 30000,
+      "kappa_environment": 4.945,
+      "mass_e_m0": 0.58,
+      "mass_h_m0": 0.36,
+      "moire_amplitude_eV": 0.045,
+      "moire_period_nm": 20.0,
+      "n_beads": 256,
+      "n_seeds": 10,
+      "n_steps": 120000,
+      "output_prefix": "landscape_scan_v2_P256_matched",
+      "sample_every": 20,
+      "screening_length_layer1_nm": 4.479911124019045,
+      "screening_length_layer2_nm": 3.4934510307918494,
+      "separation_nm": 0.6,
+      "shift_axis": "x",
+      "shift_values_nm": [
+        0.0,
+        0.962,
+        1.925,
+        2.887,
+        3.849,
+        4.812,
+        5.774,
+        6.736,
+        7.698,
+        8.661,
+        9.623,
+        10.585,
+        11.547
+      ],
+      "temperature_K": 20.0
+    },
+    "sample_every": 20,
+    "sampler_settings": {
+      "Fz_eV_per_nm": 0.0,
+      "global_move_probability": 0.2,
+      "global_step_nm": 12.0,
+      "interaction_table_n_points": 20000,
+      "interaction_table_r_max_nm": 80.0,
+      "local_step_nm": 0.15,
+      "moire_amplitude_eV": null,
+      "moire_amplitude_e_eV": 0.045,
+      "moire_amplitude_h_eV": 0.045,
+      "moire_period_nm": 20.0,
+      "origin_e_nm": [
+        0.0,
+        0.0
+      ],
+      "origin_h_nm": [
+        0.0,
+        0.0
+      ],
+      "perform_local_sweep": true,
+      "periodic_cell_grid_size": 200,
+      "staging_moves_per_step": 2,
+      "staging_segment_lengths": [
+        4,
+        8,
+        16,
+        32,
+        64,
+        128,
+        256
+      ]
+    },
+    "seeds": [
+      912560,
+      912561,
+      912562,
+      912563
+    ],
+    "temperature_K": 20.0
+  },
+  "observable_caches": {
+    "observable_cache/P256_seed912560_observables.npz": "65986a0825bc6855cc24b66adf435c4b2f580b67de23409a6a8802dcdbc7c695",
+    "observable_cache/P256_seed912561_observables.npz": "69a68165f594bc499839d2445bd194a42b9f217254d9b54e06551b43d9474067",
+    "observable_cache/P256_seed912562_observables.npz": "f002e9b641325a227849ebb91f4e703e4d8329f1adb8648b962e643a298f4f83",
+    "observable_cache/P256_seed912563_observables.npz": "8d56c832e9f971453450bd29cf09fd53186a0b24d0cb085ede4c93fd49e41b91"
+  },
+  "old_aggregate": "paper2_reviewer_hardening_audit/reproduction_aggregate.csv",
+  "old_aggregate_sha256": "fce9e0030d89c5dad55ff5b9400ee6b61e512b00f2c9e7727cb62c5bb9bb39c6",
+  "old_reference_uncertainties": {
+    "rho_mean_sem": 0.0031919499930502552,
+    "rho_median_sem": 0.002391134040944369,
+    "w5_sem": 0.0002209951851875328,
+    "zeta50_sem": 0.017024952976311444
+  },
+  "production_git_head": "775f3911a8a9acd6805800dfd17bd9b3bc2bee4e",
+  "production_root": "historical production checkout; hash-identified files archived under secVIII/",
+  "production_runner": "secVIII/run_tb03_pinv_ladder.py",
+  "production_runner_sha256": "63de5e2ba07f577a00627f22b28686ba1c9f57b66c5a5deee01411d99db8697b",
+  "raw_chains": {
+    "raw_chains/P256_seed912560_240k.npz": "ac989161fe847168d9d69cd3822ff72708a7266dd8e35df3dd0bfc9a4c34295a",
+    "raw_chains/P256_seed912561_240k.npz": "11f3dfb5090dfb4296a8ec822cab8889f5ba71536272493b1cc9c24f9a2d6b71",
+    "raw_chains/P256_seed912562_240k.npz": "86a3b9b119fb292dc88108b6a05a42406b609b5f3daf2a1da3c2bf8471ed90d3",
+    "raw_chains/P256_seed912563_240k.npz": "f92e01122595bce396c0a2d4742bfe98e4a624e63dd42a3227b4e36c8b834287"
+  },
+  "sampler_file": "numerics/tmd_pimc/two_body_sampler_periodic_jit.py",
+  "sampler_file_sha256": "34b33ae11fefe2c25ec9e6dd438fd9b6d7c18ad8c3c16510b71ce94faed82d2c",
+  "sampler_repo_git_head": "93450b81e787d4f656b31cc475bf13d3e69bfae5",
+  "stability_module": "secVIII/lha15a0_pair_stability_field_TB03.py",
+  "stability_module_sha256": "f423834e37c640bf855e799e75080a34cc0fa2dd21a90dd0390390efb719d926"
+}

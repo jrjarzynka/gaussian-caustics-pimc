@@ -1,0 +1,8 @@
+kappa_min = -1.342198753227
+beta_c reference = 2.7116988514311098
+cos_eta    2.7116988514311102  delta=+4.441e-16
+sin_2eta   2.7116988514311098  delta=+0.000e+00
+lambda1    2.7116988514311098  delta=+0.000e+00
+inv_Xi     2.7116988514311098  delta=+0.000e+00
+spread = 4.441e-16
+PASS: first scalar boundary eta=pi/2 <=> zeta=1 is common to bare, renormalized pre-mapping, and mapped stages.

@@ -1,0 +1,7 @@
+quantity,value
+harmonic_omega_ratio,6.0
+harmonic_angle_deg,57.0
+max_tensor_cov_rel_error,2.1258384610997085e-15
+max_trace_scalar_cov_rel_error,0.7142857132761703
+max_geom_scalar_cov_rel_error,1.433073696182085
+caustic_zeta,1.0

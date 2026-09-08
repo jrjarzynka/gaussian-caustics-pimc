@@ -1,0 +1,6 @@
+From the repository root, execute exactly:
+
+python paper2_secVII_energy_longcheck/run_secVII_energy_longcheck.py --preflight
+python paper2_secVII_energy_longcheck/run_secVII_energy_longcheck.py 2>&1 | tee paper2_secVII_energy_longcheck/results/secVII_energy_longcheck_campaign.log
+python paper2_secVII_energy_longcheck/analyze_secVII_energy_longcheck.py 2>&1 | tee paper2_secVII_energy_longcheck/results/secVII_energy_longcheck_analysis.log
+python -m zipfile -c paper2_secVII_energy_longcheck.zip paper2_secVII_energy_longcheck

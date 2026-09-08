@@ -1,0 +1,51 @@
+WARNING: The directory '/home/jaro/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+PREFLIGHT: PASS
+  canonical_hashes: PASS
+  seed_declaration: PASS
+  beta: PASS
+  beads: PASS
+  grid: PASS
+  n_steps: PASS
+  burn_in: PASS
+  sample_every: PASS
+  global_move_probability: PASS
+  lattice_duality: PASS
+  beta_embedding: PASS
+  spring_action_embedding: PASS
+  potential_action_embedding: PASS
+  periodic_grid_interpolation: PASS
+  exact_target_rounding: PASS
+Starting complete frozen campaign; all 16 seeds will be retained.
+seed 132001: START
+seed 132001: COMPLETE E=0.657490184996 local=0.666524 global=0.211675 runtime=6.958s
+seed 132002: START
+seed 132002: COMPLETE E=0.643059296960 local=0.666752 global=0.206438 runtime=2.344s
+seed 132003: START
+seed 132003: COMPLETE E=0.663056880486 local=0.666598 global=0.215254 runtime=2.340s
+seed 132004: START
+seed 132004: COMPLETE E=0.642951867140 local=0.666798 global=0.204209 runtime=2.410s
+seed 132005: START
+seed 132005: COMPLETE E=0.644401005950 local=0.666553 global=0.205761 runtime=2.382s
+seed 132006: START
+seed 132006: COMPLETE E=0.646618608781 local=0.666527 global=0.204901 runtime=2.377s
+seed 132007: START
+seed 132007: COMPLETE E=0.671605863770 local=0.666269 global=0.211314 runtime=2.386s
+seed 132008: START
+seed 132008: COMPLETE E=0.683011617232 local=0.666490 global=0.218931 runtime=2.397s
+seed 132009: START
+seed 132009: COMPLETE E=0.659677331257 local=0.666513 global=0.213809 runtime=2.418s
+seed 132010: START
+seed 132010: COMPLETE E=0.669388081246 local=0.666696 global=0.218086 runtime=2.389s
+seed 132011: START
+seed 132011: COMPLETE E=0.651845311182 local=0.666549 global=0.209550 runtime=2.376s
+seed 132012: START
+seed 132012: COMPLETE E=0.674074203501 local=0.666657 global=0.211288 runtime=2.430s
+seed 132013: START
+seed 132013: COMPLETE E=0.659447576194 local=0.666431 global=0.211329 runtime=2.359s
+seed 132014: START
+seed 132014: COMPLETE E=0.675503991676 local=0.666392 global=0.213806 runtime=2.329s
+seed 132015: START
+seed 132015: COMPLETE E=0.634013973711 local=0.666506 global=0.204477 runtime=2.310s
+seed 132016: START
+seed 132016: COMPLETE E=0.659627072948 local=0.666645 global=0.206078 runtime=2.337s
+CAMPAIGN COMPLETE: 16/16 chains

@@ -1,0 +1,13 @@
+=== LHA-12C0a EXACT P=64 MULTIBETA TARGETS ===
+
+ beta      V_continuum       V_P64          bias(%)       basis-delta     kgrid-delta
+--------------------------------------------------------------------------------
+ 1.00     1.4115867964     1.4115533282    -0.002371     6.1283e-11     2.2204e-15
+
+BASIS CONVERGENCE ALL BETAS: PASS
+k-GRID CONVERGENCE ALL BETAS: PASS
+
+STRUCTURAL OVERALL: PASS
+
+saved: p7_P64_beta_1p0.csv
+saved: p7_P64_beta_1p0.npz

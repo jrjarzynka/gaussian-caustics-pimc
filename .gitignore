@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+*.aux
+*.blg
+/Paper2_*.log
+*.out
+*.toc
+*.synctex.gz
+
+# Large P=256 stationarity trajectories/caches belong in Zenodo, not ordinary Git.
+P256_seed91256?_240k.npz
+P256_seed91256?_observables.npz

@@ -1,0 +1,46 @@
+=== LHA-12A1 EXACT BZ DENSITY REFERENCE ===
+
+Building K2=64, Nk=12 control...
+Building K2=81, Nk=12 control...
+Building K2=81, Nk=16 production...
+Building Gamma-only comparison...
+
+ beta    basis-L1      kgrid-L1     Gamma/BZ-L1    <V>_BZ       Pmin       Psaddle      Pmax
+---------------------------------------------------------------------------------------------
+ 0.50    4.5349e-07    2.7928e-11    6.3849e-09   2.1524906    3.441406    0.505037    0.397256
+ 0.80    9.1381e-09    4.5697e-13    9.5249e-11   1.6704923    5.621461    0.280842    0.192884
+ 1.00    3.4070e-09    1.6487e-13    3.7895e-11   1.4115868    7.140567    0.179009    0.112607
+ 1.30    1.8497e-09    8.7908e-14    3.3283e-09   1.1274204    9.249841    0.085927    0.047496
+ 1.60    1.5044e-09    7.0126e-14    1.0972e-07   0.9451027   11.003296    0.039793    0.019336
+ 1.90    1.4154e-09    6.5419e-14    1.0361e-06   0.8310438   12.376014    0.018335    0.007808
+ 2.10    1.4061e-09    6.5323e-14    3.0285e-06   0.7796400   13.102841    0.011039    0.004288
+ 2.25    1.4114e-09    6.5581e-14    5.7898e-06   0.7500315   13.563111    0.007615    0.002753
+ 2.35    1.4153e-09    6.5448e-14    8.4023e-06   0.7336018   13.834240    0.005980    0.002056
+ 2.42    1.4188e-09    6.6250e-14    1.0643e-05   0.7234218   14.008544    0.005066    0.001680
+ 2.48    1.4235e-09    6.6470e-14    1.2849e-05   0.7154607   14.148474    0.004404    0.001415
+ 2.50    1.4251e-09    6.6175e-14    1.3644e-05   0.7129518   14.193262    0.004206    0.001337
+ 2.54    1.4281e-09    6.6643e-14    1.5324e-05   0.7081379   14.280155    0.003838    0.001194
+
+=== STRUCTURAL AUDIT ===
+max basis density L1       = 4.534917e-07
+max k-grid density L1      = 2.792770e-11
+max normalization error    = 2.220446e-16
+max negative violation     = 0.000000e+00
+max <V> matrix/density err = 5.995204e-15
+max symmetry L1            = 3.051046e-09
+max symmetry Linf          = 2.356588e-08
+max imaginary residual     = 1.682772e-15
+
+FULL-DENSITY BASIS CONVERGENCE    : PASS
+FULL-DENSITY k-GRID CONVERGENCE   : PASS
+DENSITY NORMALIZATION             : PASS
+DENSITY POSITIVITY                : PASS
+MATRIX/DENSITY <V>                : PASS
+LATTICE SYMMETRY L1               : PASS
+LATTICE SYMMETRY Linf             : PASS
+FOURIER IMAGINARY RESIDUAL        : PASS
+
+STRUCTURAL OVERALL: PASS
+
+saved: point7_exact_bz_continuum_13anchors.csv
+saved: point7_exact_bz_continuum_13anchors.npz

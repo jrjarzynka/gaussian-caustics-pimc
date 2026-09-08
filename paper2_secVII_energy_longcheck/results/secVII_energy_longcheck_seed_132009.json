@@ -1,0 +1,13 @@
+{
+  "seed": 132009,
+  "energy_mean": 0.6596773312570509,
+  "lookup_energy_mean": 0.6597025767778901,
+  "analytic_minus_lookup": -2.5245520839267677e-05,
+  "acceptance_local": 0.666512939453125,
+  "acceptance_global": 0.2138091666337689,
+  "local_step_nm": 0.2834903272159387,
+  "global_step_nm": 5.006861650179843,
+  "runtime_seconds": 2.41772405100005,
+  "n_saved_samples": 25600,
+  "raw_file": "secVII_energy_longcheck_seed_132009.npz"
+}

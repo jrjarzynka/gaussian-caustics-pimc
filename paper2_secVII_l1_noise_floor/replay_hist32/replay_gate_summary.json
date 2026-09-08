@@ -1,0 +1,181 @@
+{
+  "all_pass": true,
+  "records": [
+    {
+      "seed": 131001,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66670458984375,
+      "acceptance_global": 0.20712484237074402,
+      "runtime_seconds": 0.5717904020000049,
+      "count": 409600
+    },
+    {
+      "seed": 131002,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.666662109375,
+      "acceptance_global": 0.2135545905707196,
+      "runtime_seconds": 0.35812558700001773,
+      "count": 409600
+    },
+    {
+      "seed": 131003,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66641357421875,
+      "acceptance_global": 0.20453829183737787,
+      "runtime_seconds": 0.36252792999999883,
+      "count": 409600
+    },
+    {
+      "seed": 131004,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66666162109375,
+      "acceptance_global": 0.1998119417019276,
+      "runtime_seconds": 0.34638345199999776,
+      "count": 409600
+    },
+    {
+      "seed": 131005,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.666048828125,
+      "acceptance_global": 0.20605966919152882,
+      "runtime_seconds": 0.34335315600000627,
+      "count": 409600
+    },
+    {
+      "seed": 131006,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66640283203125,
+      "acceptance_global": 0.21346153846153845,
+      "runtime_seconds": 0.345109481999998,
+      "count": 409600
+    },
+    {
+      "seed": 131007,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.6665048828125,
+      "acceptance_global": 0.21109010712035287,
+      "runtime_seconds": 0.3516953390000026,
+      "count": 409600
+    },
+    {
+      "seed": 131008,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.666201171875,
+      "acceptance_global": 0.20713623725671917,
+      "runtime_seconds": 0.34704314800001157,
+      "count": 409600
+    },
+    {
+      "seed": 131009,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.666580078125,
+      "acceptance_global": 0.2077739619107087,
+      "runtime_seconds": 0.3836438639999926,
+      "count": 409600
+    },
+    {
+      "seed": 131010,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.6667919921875,
+      "acceptance_global": 0.2042008843967151,
+      "runtime_seconds": 0.3714414819999945,
+      "count": 409600
+    },
+    {
+      "seed": 131011,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.6666806640625,
+      "acceptance_global": 0.22049984182220816,
+      "runtime_seconds": 0.35332955800001287,
+      "count": 409600
+    },
+    {
+      "seed": 131012,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66627490234375,
+      "acceptance_global": 0.21912350597609562,
+      "runtime_seconds": 0.3352800959999911,
+      "count": 409600
+    },
+    {
+      "seed": 131013,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.6666279296875,
+      "acceptance_global": 0.20425267732422783,
+      "runtime_seconds": 0.36765326099998674,
+      "count": 409600
+    },
+    {
+      "seed": 131014,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.66680810546875,
+      "acceptance_global": 0.20960970300108847,
+      "runtime_seconds": 0.3489628840000023,
+      "count": 409600
+    },
+    {
+      "seed": 131015,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.666154296875,
+      "acceptance_global": 0.21533694810224632,
+      "runtime_seconds": 0.34154153899999073,
+      "count": 409600
+    },
+    {
+      "seed": 131016,
+      "pass_full": true,
+      "pass_first": true,
+      "pass_second": true,
+      "pass_halves": true,
+      "acceptance_local": 0.6666337890625,
+      "acceptance_global": 0.2093978102189781,
+      "runtime_seconds": 0.3566809019999937,
+      "count": 409600
+    }
+  ]
+}

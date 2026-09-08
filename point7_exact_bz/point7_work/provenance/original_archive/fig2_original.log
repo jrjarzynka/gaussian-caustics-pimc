@@ -1,0 +1,12 @@
+=== POINT 7 FIGURE 2 AUDIT ===
+anchors = 13
+beta_c = 2.565099660324
+max anchor beta = 2.540000
+max zeta = 0.990214937567
+beta=2.5 error = +17.395815887756%
+beta=2.5 L1 = 0.115041336100
+beta=2.5 P64 bias = -0.020376866640%
+beta=2.5 ratio = 853.704163x
+saved /mnt/data/point7_work/publication_figures_point7/Fig2_before_caustic_POINT7.pdf
+saved /mnt/data/point7_work/publication_figures_point7/Fig2_before_caustic_POINT7.png
+saved /mnt/data/point7_work/publication_figures_point7/Fig2_BZ_anchor_data_POINT7.csv

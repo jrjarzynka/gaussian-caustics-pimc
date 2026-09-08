@@ -1,0 +1,11 @@
+{
+  "source_snapshots/lha12a1_exact_bz_density_reference.py": "e4702a41342823b17ffb34826ceb00a82dca52705d9008ec42055e2866851725",
+  "source_snapshots/lha12c0a_exact_P64_multibeta_converged.py": "fa7a95ea22892b1050386fdf4492ccfbf5295b23f3f01387aa9d946661fbb01c",
+  "source_snapshots/lha12c2a_harmonized_density_comparison.py": "afb3d6de047f3e235e7a3ad1a5b422864dcb5982fbc904f445ebcbe26aaba884",
+  "source_snapshots/p2c_make_figure2_before_caustic.py": "7868a1b7b545b502124f83da7c2d1d4ed2df794bf95491df4e1bd36c6181057d",
+  "POINT7_FIG2_BZ_ANCHORS_PROTOCOL_2026-09-08.md": "6a66b1f078fc612b60a0507cb024ad61862ecbc15633d8c22c41e2ffb84644c1",
+  "run_point7_exact_bz_continuum.py": "59157b75e007cb0a48e208b0464ec51bf00296edae7d40c59eafb2b07b2c47b3",
+  "run_point7_exact_P64.py": "3062fe0cdb62732b09135345e13b43db5b49eef24c30f0dbcad00a157d6c72d6",
+  "run_point7_splh_bz_comparison.py": "07653d58b12ccaca923a1d8c32e7b338096202c0bead8312882a49dc2d477515",
+  "build_point7_anchor_table_and_audit.py": "4327caf96d0ee992a8c5ae33de89c8b60812996d381ff1b20832e33aae34f9c7"
+}

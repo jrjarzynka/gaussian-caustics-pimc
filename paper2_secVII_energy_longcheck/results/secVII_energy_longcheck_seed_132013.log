@@ -1,0 +1,11 @@
+seed=132013
+energy_mean=0.6594475761937392
+lookup_energy_mean=0.6594729094937679
+analytic_minus_lookup=-2.5333300028740346e-05
+acceptance_local=0.666430908203125
+acceptance_global=0.21132880698351114
+local_step_nm=0.2834903272159387
+global_step_nm=5.006861650179843
+runtime_seconds=2.3588906840000163
+n_saved_samples=25600
+raw_file=secVII_energy_longcheck_seed_132013.npz

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaussian-caustics-pimc"
+version = "1.0.0rc1"
+description = "Reproducibility code and data for Gaussian-caustic diagnostics in multidimensional and interacting quantum systems"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Jaroslaw R. Jarzynka" }]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "numba>=0.58",
+    "matplotlib>=3.7",
+    "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.4"]
+
+[tool.setuptools]
+package-dir = { "" = "numerics" }
+
+[tool.setuptools.packages.find]
+where = ["numerics"]

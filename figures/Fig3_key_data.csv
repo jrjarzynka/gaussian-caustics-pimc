@@ -1,0 +1,12 @@
+quantity,value
+beta_c_global,2.7117052459776607
+s_caustic,0.5
+t_caustic,0.462890625
+kappa_min_global,-1.3421924230833038
+V_caustic,3.7035181192260977
+zeta_max_beta2p70,0.9956834372043115
+beta_c_stationary_3_maximum,2.9636011651688974
+beta_c_stationary_2_saddle,3.383147075148312
+beta_c_stationary_1_saddle,3.4843838771462887
+invalid_area_beta3,0.11163330078125
+exact_invalid_probability_beta3,0.0006085683136028832

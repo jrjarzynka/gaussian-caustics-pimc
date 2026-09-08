@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "e4c09eedafc58abf0f7e3b93163af3801fd5dcd970819d91866e3984922aa2fb",
+  "recovery_protocol_sha256": "cecc651bbd441a90d025794ad8588927938ca0064b632f5857dbe53fbe0b0c32",
+  "analyzer_sha256": "44c9d38868958472410a97f3c834792338cd1385c3cf6beda69893698b9c3566",
+  "replay_gate_all_16": true,
+  "historical_16x16_L1_reconstructed": 0.02005801755642582,
+  "bootstrap_reps": 200000,
+  "bootstrap_seed": 20260908
+}

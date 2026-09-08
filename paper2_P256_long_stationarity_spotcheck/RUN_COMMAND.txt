@@ -1,0 +1,7 @@
+From the repository root:
+
+python paper2_P256_long_stationarity_spotcheck/run_P256_long_stationarity.py --stage all
+
+The four raw P=256 chains are intentionally not stored in Git. To analyze archived
+chains rather than rerun them, obtain the Zenodo raw-data archive described in
+DATA_AVAILABILITY.md and place/materialize the files at the paths expected by the runner.
