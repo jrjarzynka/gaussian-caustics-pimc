@@ -24,9 +24,10 @@ irrelevant.
 
 > The code, compact numerical data, validation workflows, and figure-generation
 > scripts supporting this work are available in the versioned public repository
-> [GITHUB URL]. The corresponding immutable software/data release, including the
-> large raw P=256 long-chain trajectories omitted from ordinary Git, is archived
+> https://github.com/jrjarzynka/gaussian-caustics-pimc. The corresponding
+> immutable software/data release, including the large raw P=256 long-chain
+> trajectories omitted from ordinary Git, is archived
 > at [ZENODO DOI]. SHA-256 manifests are provided in both releases.
 
-Replace the two placeholders only after the public repository and Zenodo record
-exist. The repository itself must not invent a DOI before Zenodo mints one.
+Replace the Zenodo DOI placeholder only after the archival Zenodo record exists.
+The repository itself must not invent a DOI before Zenodo mints one.

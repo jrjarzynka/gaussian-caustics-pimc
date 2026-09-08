@@ -6,7 +6,7 @@ Reproducibility package for the manuscript
 
 Author: **Jaroslaw R. Jarzynka**  
 Target journal: *Physical Review E*  
-Repository state: **v1.0.0-rc1 reproducibility release candidate, aligned to manuscript v6.3.3**
+Repository state: **v1.0.0-rc2 reproducibility release candidate, aligned to manuscript v6.3.3**
 
 This repository contains the numerical library, deterministic quantum references,
 PI-QMC validation outputs, caustic/stability analyses, publication figures, and
@@ -132,13 +132,19 @@ See:
 ## Relationship to the manuscript
 
 This repository is the reproducibility/code-and-data release, not the working
-manuscript repository. The RC1 scientific contents are aligned to the v6.3.3
+manuscript repository. The release-candidate scientific contents are aligned to the v6.3.3
 submission-candidate reference freeze recorded under `provenance/`. The final
 public `v1.0.0` release will point to the corresponding article and immutable
 Zenodo archive once their identifiers exist.
 
 ## License and citation
 
-The software is released under the MIT License; see `LICENSE` and
-`LICENSE_SCOPE.md`. Citation metadata are provided in `CITATION.cff`. The final
-repository URL and Zenodo DOI will be added at release freeze.
+The software is released under the MIT License. Scientific data,
+numerical outputs, publication figures, and other non-software research
+artifacts are released under the Creative Commons Attribution 4.0 International
+(CC BY 4.0) license; see `LICENSE_SCOPE.md`. Citation metadata are provided in
+`CITATION.cff`.
+
+Repository: https://github.com/jrjarzynka/gaussian-caustics-pimc
+
+The Zenodo DOI will be added at the final archival release freeze.

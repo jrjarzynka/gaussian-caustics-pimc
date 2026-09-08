@@ -1,3 +1,1 @@
-Paper 2 - Gaussian Caustics
-v6.3.3 full submission candidate
-2026-09-08
+1.0.0-rc2

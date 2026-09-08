@@ -1,11 +1,17 @@
 # License scope
 
-`LICENSE` applies the MIT License to the software source in this repository.
+The software source in this repository is licensed under the MIT License; see
+`LICENSE`.
 
-The scientific data, publication figures, and other non-software research
-artifacts are included for reproducibility but are not assigned an additional
-content/data license in this release candidate. An explicit license for those
-artifacts will be selected before the public `v1.0.0`/Zenodo release.
+Scientific data, numerical outputs, publication figures, and other non-software
+research artifacts distributed in this repository are licensed under the
+Creative Commons Attribution 4.0 International (CC BY 4.0) license:
+
+https://creativecommons.org/licenses/by/4.0/
+
+Large raw trajectories and other non-software research data included in the
+corresponding archival Zenodo release are likewise licensed under CC BY 4.0
+unless a file-specific notice states otherwise.
 
 Manuscript and Supplemental Material source files and compiled article PDFs are
-not distributed in this Git release candidate.
+not distributed in this Git reproducibility release.
