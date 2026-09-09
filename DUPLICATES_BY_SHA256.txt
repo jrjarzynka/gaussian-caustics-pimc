@@ -1,5 +1,5 @@
 # Duplicate files grouped by SHA-256
-# Generated from the current Git release-candidate contents.
+# Generated from the current Git release contents.
 
 01cf81aa142ed92607dda76e3468a89b0ae840882558645e1d61bf72577a768a
   figure_data/point6_l1_noise_floor_summary_variance_corrected.csv

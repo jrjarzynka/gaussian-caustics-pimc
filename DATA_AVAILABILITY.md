@@ -27,7 +27,7 @@ irrelevant.
 > https://github.com/jrjarzynka/gaussian-caustics-pimc. The corresponding
 > immutable software/data release, including the large raw P=256 long-chain
 > trajectories omitted from ordinary Git, is archived
-> at [ZENODO DOI]. SHA-256 manifests are provided in both releases.
+> at 10.5281/zenodo.22668090. SHA-256 manifests are provided in both releases.
 
-Replace the Zenodo DOI placeholder only after the archival Zenodo record exists.
-The repository itself must not invent a DOI before Zenodo mints one.
+The DOI above was reserved for the corresponding archival Zenodo record before
+the final `v1.0.0` repository freeze.

@@ -2,8 +2,7 @@
 
 The Zenodo release should contain:
 
-1. a ZIP/tar archive of the tagged GitHub release (`v1.0.0-submission` or the
-   final author-selected tag);
+1. a ZIP/tar archive of the final tagged GitHub release (`v1.0.0`);
 2. the four raw P=256 long-stationarity chain NPZ files listed in
    `provenance/OMITTED_LARGE_DATA.csv`;
 3. optionally, the four derived observable-cache NPZ files listed in the same
