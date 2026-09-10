@@ -1,0 +1,52 @@
+{
+  "campaign": "Paper2 SecVIII Rwall=30 nm equilibrium sensitivity",
+  "created_before_results": true,
+  "expected_source_hashes": {
+    "production_runner": "63de5e2ba07f577a00627f22b28686ba1c9f57b66c5a5deee01411d99db8697b",
+    "stability_module": "f423834e37c640bf855e799e75080a34cc0fa2dd21a90dd0390390efb719d926",
+    "physical_config": "9d7779ad7da3554fda7118b645547d7b251141286e738afc5f5254cfc2163719",
+    "sampler": "34b33ae11fefe2c25ec9e6dd438fd9b6d7c18ad8c3c16510b71ce94faed82d2c"
+  },
+  "actual_source_hashes": {
+    "production_runner": "63de5e2ba07f577a00627f22b28686ba1c9f57b66c5a5deee01411d99db8697b",
+    "stability_module": "f423834e37c640bf855e799e75080a34cc0fa2dd21a90dd0390390efb719d926",
+    "physical_config": "9d7779ad7da3554fda7118b645547d7b251141286e738afc5f5254cfc2163719",
+    "sampler": "34b33ae11fefe2c25ec9e6dd438fd9b6d7c18ad8c3c16510b71ce94faed82d2c"
+  },
+  "scientific_differences_from_canonical_R15": [
+    "wall_radius_nm: 15.0 -> 30.0",
+    "four new independent 240000-step P=256 chains",
+    "two compact and two intentionally dissociated initial conditions",
+    "primary burn-in 60000; archived frames begin after 15000 for predeclared burn-in audit"
+  ],
+  "unchanged": [
+    "T=20 K",
+    "P=256",
+    "wall_height_eV=0.08",
+    "wall_power=8",
+    "masses",
+    "BLK parameters",
+    "moire amplitudes/period/origins",
+    "validated periodic two-body staging sampler",
+    "local step 0.15 nm",
+    "global step 12 nm",
+    "global move probability 0.20",
+    "sample every 20",
+    "same-slice electron-hole pairing",
+    "full 4D mass-weighted Hessian definition"
+  ],
+  "seeds": [
+    930300,
+    930301,
+    930302,
+    930303
+  ],
+  "start_classes": [
+    "compact",
+    "compact",
+    "dissociated",
+    "dissociated"
+  ],
+  "primary_gate": "lower 95% chain-level Student-t CI for p_inv > 0.5",
+  "baseline_R15_p_inv": 0.9248524305555555
+}

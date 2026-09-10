@@ -1,0 +1,73 @@
+{
+  "protocol": {
+    "P": 256,
+    "temperature_K": 20.0,
+    "wall_radius_nm": 30.0,
+    "wall_height_eV": 0.08,
+    "wall_power": 8,
+    "n_chains": 4,
+    "seeds": [
+      930300,
+      930301,
+      930302,
+      930303
+    ],
+    "start_classes": [
+      "compact",
+      "compact",
+      "dissociated",
+      "dissociated"
+    ],
+    "n_steps": 240000,
+    "raw_burn_in": 15000,
+    "primary_burn_in": 60000,
+    "sample_every": 20,
+    "local_step_nm": 0.15,
+    "global_step_nm": 12.0,
+    "global_move_probability": 0.2,
+    "asymptotic_dissociated_wall_volume_ratio_vs_R15": 4.0,
+    "primary_gate": "lower 95% chain-level Student-t CI for p_inv > 0.5"
+  },
+  "primary": {
+    "p_inv_chain_mean": 0.9254860026041666,
+    "p_inv_chain_sem": 0.0004186462238138554,
+    "p_inv_t95_lo": 0.9241536834759692,
+    "p_inv_t95_hi": 0.926818321732364,
+    "predominantly_invalid_gate_pass": true,
+    "p_inv_no_wall_hessian_chain_mean": 0.9254860026041666,
+    "p_inv_no_wall_hessian_chain_sem": 0.0004186462238138554,
+    "p_inv_no_wall_hessian_t95_lo": 0.9241536834759692,
+    "p_inv_no_wall_hessian_t95_hi": 0.926818321732364,
+    "delta_wall_hessian_classification_mean": 0.0,
+    "zeta50_chain_mean": 17.276224613189697,
+    "p_zeta_ge_5_chain_mean": 0.9093070746527778,
+    "rho_median_nm_chain_mean": 1.642739862203598,
+    "rho_mean_nm_chain_mean": 1.8344632983207703,
+    "p_rho_gt_18p7nm_chain_mean": 0.0,
+    "rho_max_nm_all_chains": 11.884666442871094
+  },
+  "initialization_mixing_diagnostic": {
+    "compact_start_p_inv_mean": 0.9258328993055556,
+    "dissociated_start_p_inv_mean": 0.9251391059027778,
+    "diss_minus_compact_p_inv": -0.0006937934027777537,
+    "compact_start_rho_mean_nm": 1.8375359177589417,
+    "dissociated_start_rho_mean_nm": 1.8313906788825989,
+    "diss_minus_compact_rho_mean_nm": -0.0061452388763427734,
+    "interpretation": "Diagnostic only; two chains per start class are not treated as a separate inferential sample."
+  },
+  "baseline_R15_reference": {
+    "p_inv_P256": 0.9248524305555555,
+    "ci95": [
+      0.9240048611111111,
+      0.925468923611111
+    ],
+    "delta_R30_minus_R15": 0.0006335720486110308,
+    "note": "R15 reference is the archived canonical production result; R30 is a separately equilibrated Hamiltonian."
+  },
+  "source_hashes": {
+    "production_runner": "63de5e2ba07f577a00627f22b28686ba1c9f57b66c5a5deee01411d99db8697b",
+    "stability_module": "f423834e37c640bf855e799e75080a34cc0fa2dd21a90dd0390390efb719d926",
+    "physical_config": "9d7779ad7da3554fda7118b645547d7b251141286e738afc5f5254cfc2163719",
+    "sampler": "34b33ae11fefe2c25ec9e6dd438fd9b6d7c18ad8c3c16510b71ce94faed82d2c"
+  }
+}
