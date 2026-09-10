@@ -6,7 +6,7 @@ Reproducibility package for the manuscript
 
 Author: **Jaroslaw R. Jarzynka**  
 Target journal: *Physical Review E*  
-Repository state: **v1.0.0 reproducibility release, aligned to manuscript v6.3.3**
+Repository state: **v1.0.1 reproducibility release, aligned to manuscript v6.3.3**
 
 This repository contains the numerical library, deterministic quantum references,
 PI-QMC validation outputs, caustic/stability analyses, publication figures, and
@@ -132,9 +132,9 @@ See:
 ## Relationship to the manuscript
 
 This repository is the reproducibility/code-and-data release, not the working
-manuscript repository. The `v1.0.0` scientific contents are aligned to the
+manuscript repository. The `v1.0.1` scientific contents are aligned to the
 v6.3.3 submission-candidate reference freeze recorded under `provenance/`. The
-public `v1.0.0` release is paired with the corresponding immutable Zenodo
+public `v1.0.1` release is paired with the corresponding immutable Zenodo
 archive.
 
 ## License and citation
@@ -147,4 +147,16 @@ artifacts are released under the Creative Commons Attribution 4.0 International
 
 Repository: https://github.com/jrjarzynka/gaussian-caustics-pimc
 
-Zenodo archive DOI: https://doi.org/10.5281/zenodo.22668090
+Zenodo archive DOI: https://doi.org/10.5281/zenodo.22695962
+
+## v1.0.1 referee-revision update
+
+Version `v1.0.1` adds the `R_wall = 30 nm` equilibrium sensitivity test
+used in the PRE referee revision. Compact scripts, protocol, diagnostics,
+results, and provenance are included under
+`paper2_wall_radius_sensitivity_R30/`.
+
+The four large raw R30 `P=256` trajectories remain outside ordinary Git
+and are archived with the immutable Zenodo release:
+
+https://doi.org/10.5281/zenodo.22695962

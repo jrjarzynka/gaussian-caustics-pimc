@@ -27,7 +27,19 @@ irrelevant.
 > https://github.com/jrjarzynka/gaussian-caustics-pimc. The corresponding
 > immutable software/data release, including the large raw P=256 long-chain
 > trajectories omitted from ordinary Git, is archived
-> at 10.5281/zenodo.22668090. SHA-256 manifests are provided in both releases.
+> at 10.5281/zenodo.22695962. SHA-256 manifests are provided in both releases.
 
 The DOI above was reserved for the corresponding archival Zenodo record before
-the final `v1.0.0` repository freeze.
+the final `v1.0.1` repository freeze.
+
+## v1.0.1 referee-revision addition
+
+Version `v1.0.1` adds the `R_wall = 30 nm` equilibrium sensitivity
+campaign reported in the PRE referee revision. The runner, frozen protocol,
+run command, compact chain-level results, diagnostics, and source provenance
+are included in Git under `paper2_wall_radius_sensitivity_R30/`.
+
+The four new raw `P=256` R30 trajectories are intentionally omitted from
+ordinary Git and are archived in the immutable Zenodo version `1.0.1` at
+DOI `10.5281/zenodo.22695962`. The corresponding derived observable caches are
+reconstructable convenience artifacts.
