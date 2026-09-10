@@ -1,0 +1,21 @@
+Place the directory `paper2_wall_radius_sensitivity_R30` directly in the repository root, beside `secVIII/` and `numerics/`.
+
+1. Verify source hashes/configuration and print the protocol (NO Monte Carlo):
+
+python paper2_wall_radius_sensitivity_R30/run_wall_radius_sensitivity_R30.py --stage dry-run
+
+2. Optional short code-path smoke test (not a scientific result):
+
+python paper2_wall_radius_sensitivity_R30/run_wall_radius_sensitivity_R30.py --smoke
+
+3. Production: run all four predeclared 240k chains and analyze them:
+
+python paper2_wall_radius_sensitivity_R30/run_wall_radius_sensitivity_R30.py --stage all
+
+If a run was interrupted after some raw chains were safely written, resume/reuse without overwriting them:
+
+python paper2_wall_radius_sensitivity_R30/run_wall_radius_sensitivity_R30.py --stage all --reuse
+
+To analyze already-completed raw chains only:
+
+python paper2_wall_radius_sensitivity_R30/run_wall_radius_sensitivity_R30.py --stage analyze --reuse

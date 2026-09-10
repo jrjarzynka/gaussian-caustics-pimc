@@ -19,3 +19,9 @@ dist/
 # Large P=256 stationarity trajectories/caches belong in Zenodo, not ordinary Git.
 P256_seed91256?_240k.npz
 P256_seed91256?_observables.npz
+
+# R_wall=30 nm reviewer sensitivity campaign
+paper2_wall_radius_sensitivity_R30/smoke_raw/
+paper2_wall_radius_sensitivity_R30/raw/
+paper2_wall_radius_sensitivity_R30/raw_chains/
+paper2_wall_radius_sensitivity_R30/observable_cache/
