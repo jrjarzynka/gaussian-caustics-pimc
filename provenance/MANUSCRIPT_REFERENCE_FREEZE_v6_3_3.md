@@ -93,6 +93,15 @@ not available in the recovered project context and is therefore not guessed.
 The bibliography entry for Supplemental Material retains `[URL will be inserted by publisher]`
 intentionally, consistent with the APS Supplemental Material workflow.
 
+Addendum, 2026-09-13. The three release-metadata placeholders recorded above
+were resolved before submission. The GitHub URL and Zenodo DOI are given in the
+manuscript's Data and code availability section. The AI/Codex model-version
+placeholders were not filled: the attribution of GPT-5.6 Sol to the final
+revision originated from tool-reported context rather than an independently
+retained session record, and was therefore not asserted in the submitted
+manuscript. The submitted disclosure states instead that exact model versions
+for individual sessions are not recoverable from the retained project records.
+
 ## Scientific freeze
 
 No new MCMC, FK benchmark, temperature scan, wall-radius ensemble scan, or 4D exact
