@@ -35,7 +35,7 @@ the final `v1.0.1` repository freeze.
 ## v1.0.1 referee-revision addition
 
 Version `v1.0.1` adds the `R_wall = 30 nm` equilibrium sensitivity
-campaign reported in the PRE referee revision. The runner, frozen protocol,
+campaign. The runner, frozen protocol,
 run command, compact chain-level results, diagnostics, and source provenance
 are included in Git under `paper2_wall_radius_sensitivity_R30/`.
 
